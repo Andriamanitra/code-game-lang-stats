@@ -1,9 +1,9 @@
 require "json"
+require "http/client"
 require "http/server"
 
 require "./site-stats"
 require "./providers/*"
-
 
 def stats_from_profile_url(url : String) : SiteStats?
   {% for type in SiteStats.subclasses %}
@@ -13,7 +13,6 @@ def stats_from_profile_url(url : String) : SiteStats?
   {% end %}
   nil
 end
-
 
 server = HTTP::Server.new do |ctx|
   if profile_url = ctx.request.query_params["profile_url"]?
@@ -27,7 +26,6 @@ server = HTTP::Server.new do |ctx|
     ctx.response.respond_with_status 400
   end
 end
-
 
 address = server.bind_tcp 8080
 puts "Listening on http://#{address}"
