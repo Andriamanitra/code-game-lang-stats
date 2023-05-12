@@ -1,5 +1,5 @@
 class CodeWarsStats < SiteStats
-  @@url_regex = Regex.new("https?://(www\\.)?codewars\\.com/users/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?codewars[.]com/users/(?<username>\\w+)")
   @@codewars_api_url = "https://www.codewars.com/api/v1/users/%s/code-challenges/completed"
   MAX_PAGES = 20
 

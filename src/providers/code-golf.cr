@@ -1,7 +1,7 @@
 class CodeGolfStats < SiteStats
   # stats come from massive (~15M) json available at
   # https://code.golf/scores/all-holes/all-langs/all
-  @@url_regex = Regex.new("https?://code\.golf/golfers/(?<username>[\\w\\-]+)")
+  @@url_regex = Regex.new("https?://code[.]golf/golfers/(?<username>[\\w\\-]+)")
   alias Username = String
   @@cached_lang_stats = Hash(Username, Hash(Langname, Int32)).new do |h, k|
     h[k] = Hash(Langname, Int32).new(0)
