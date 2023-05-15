@@ -1,7 +1,6 @@
 class LeetcodeStats < SiteStats
   @@url_regex = Regex.new("https?://(www[.])?leetcode[.]com/(?<username>\\w+)")
   @@leetcode_api_url = "https://leetcode.com/graphql/"
-
   @@headers = HTTP::Headers{"Content-Type" => "application/json"}
 
   def self.fetch_lang_stats(username : String) : Hash(Langname, Int32)?
@@ -10,18 +9,18 @@ class LeetcodeStats < SiteStats
     body = {
       "query": <<-GRAPHQL,
         query languageStats($username: String!) {
-            matchedUser(username: $username) {
-                languageProblemCount {
-                    languageName
-                    problemsSolved
-                }
+          matchedUser(username: $username) {
+            languageProblemCount {
+              languageName
+              problemsSolved
             }
+          }
         }
       GRAPHQL
       "variables":     {"username": username},
       "operationName": "languageStats",
-    }.to_json
-    response = HTTP::Client.post(@@leetcode_api_url, @@headers, body)
+    }
+    response = HTTP::Client.post(@@leetcode_api_url, @@headers, body.to_json)
     return nil unless response.success?
 
     obj = JSON.parse(response.body).dig?("data", "matchedUser", "languageProblemCount")
