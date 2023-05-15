@@ -2,10 +2,7 @@ class LeetcodeStats < SiteStats
   @@url_regex = Regex.new("https?://(www[.])?leetcode[.]com/(?<username>\\w+)")
   @@leetcode_api_url = "https://leetcode.com/graphql/"
 
-  @@headers = HTTP::Headers{
-    "Content-Type" => "application/json",
-    "Referer"      => "https://leetcode.com/Andriamanitra/",
-  }
+  @@headers = HTTP::Headers{"Content-Type" => "application/json"}
 
   def self.fetch_lang_stats(username : String) : Hash(Langname, Int32)?
     stats = Hash(Langname, Int32).new(0)
