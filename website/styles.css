@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    white-space: nowrap;
+}
+
+#results-table {
+    font-size: 0.7rem;
+    border-spacing: 0;
+    outline: 1px solid black;
+    border-collapse: collapse;
+}
+
+.bars-row {
+    position: relative;
+    height: 100px;
+    outline: 1px solid black;
+}
+
+.bars-row td {
+    position: relative;
+    min-width: 3.5ch;
+}
+
+.lang-header-row td {
+    font-size: 0.6rem;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+tr:nth-of-type(n+2) td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+td {
+    padding: 0 0.05rem;
+    text-align: center;
+    background: white;
+}
+
+td:nth-of-type(1) {
+    text-align: left;
+}
+
+.bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 3ch;
+    background: blue;
+}
+
+.section {
+    display: block;
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
