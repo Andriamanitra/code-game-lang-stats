@@ -22,7 +22,7 @@ $ just update-code-golf-sols build
 $ just run
 ```
 
-After you run the above command the app will be available on https://localhost:8080. You will be presented with a simple
+After you run the above command the app will be available on http://localhost:8080. You will be presented with a simple
 form in which you can enter links to profiles on the different supported sites, and a table will be generated.
 It should look something like this:
 ![screenshot of the application](https://github.com/Andriamanitra/code-game-lang-stats/assets/10672443/4879e4e9-ab72-491b-8ea1-168c05e7d4a1)
