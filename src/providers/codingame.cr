@@ -43,6 +43,7 @@ class CodingameStats < SiteStats
         stats[lang] = solved_count
       end
 
+      profile_url = profile_url.sub("www.codingame.com", "codingame.com")
       self.new(codingamer.pseudo, profile_url, stats)
     end
   end

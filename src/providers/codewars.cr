@@ -1,5 +1,5 @@
 class CodeWarsStats < SiteStats
-  @@url_regex = Regex.new("https?://(www[.])?codewars[.]com/users/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?codewars[.]com/users/(?<username>[^/]+)")
   @@codewars_api_url = "https://www.codewars.com/api/v1/users/%s/code-challenges/completed"
   MAX_PAGES = 20
 
@@ -32,6 +32,8 @@ class CodeWarsStats < SiteStats
     if username = @@url_regex.match(profile_url).try(&.["username"])
       stats = self.fetch_lang_stats(username)
       return nil if stats.nil?
+
+      profile_url = profile_url.sub("www.codewars.com", "codewars.com")
       self.new(username, profile_url, stats)
     end
   end
