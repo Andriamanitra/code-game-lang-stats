@@ -1,12 +1,13 @@
 class AtCoderStats < SiteStats
-  @@url_regex = Regex.new("https?://(www[.])?atcoder.jp/users/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?atcoder[.]jp/users/(?<username>\\w+)")
   # https://github.com/kenkoooo/AtCoderProblems/blob/master/doc/api.md
-  @@kenko_api_url = "https://kenkoooo.com/atcoder/atcoder-api/v3/user/language_rank?user="
+  @@kenko_api_url = "https://kenkoooo.com/atcoder/atcoder-api/v3/user/language_rank?user=%s"
 
   def self.fetch_lang_stats(username : String) : Hash(Langname, Int32)?
     stats = Hash(Langname, Int32).new(0)
 
-    response = HTTP::Client.get(@@kenko_api_url + username)
+    url = URI.parse(@@kenko_api_url % username)
+    response = HTTP::Client.get(url)
     return nil unless response.success?
 
     obj = JSON.parse(response.body)
@@ -25,6 +26,7 @@ class AtCoderStats < SiteStats
     if username = @@url_regex.match(profile_url).try(&.["username"])
       stats = fetch_lang_stats(username)
       return nil if stats.nil?
+
       self.new(username, profile_url, stats)
     end
   end
