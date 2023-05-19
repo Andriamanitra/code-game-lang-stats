@@ -49,6 +49,7 @@ function renderStatsTable(el, stats) {
         const cell = makeCell()
         const bar = document.createElement("div")
         bar.classList.add("bar")
+        bar.classList.add(langName)
         const percentage = Math.round(100 * numSolved / height)
         bar.style.height = `${percentage}px`
         cell.appendChild(bar)
