@@ -4,6 +4,18 @@ const inputEl = document.getElementById("text-input")
 const resetButtonEl = document.getElementById("reset-button")
 const submitButtonEl = document.getElementById("submit-button")
 
+// some language names don't exactly match their css classes
+// because of special characters
+const langClasses = {
+    "C++": "Cplusplus",
+    "C#": "Csharp",
+    "F#": "Fsharp",
+    "Q#": "Qsharp",
+    "JS": "JavaScript",
+    "TS": "TypeScript"
+}
+
+
 function roundUpToPowerOfTwo(num) {
     return 1 << 32 - Math.clz32(num)
 }
@@ -49,6 +61,7 @@ function renderStatsTable(el, stats) {
         const cell = makeCell()
         const bar = document.createElement("div")
         bar.classList.add("bar")
+        bar.classList.add(langClasses[langName] ?? langName)
         const percentage = Math.round(100 * numSolved / height)
         bar.style.height = `${percentage}px`
         cell.appendChild(bar)
