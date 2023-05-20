@@ -1,2439 +1,1830 @@
 .bar.1C-Enterprise {
   background-color: #814CCC;
 }
-
-.bar.2-Dimensional-Array {
+.bar.2Dimensional-Array {
   background-color: #38761D;
 }
-
 .bar.4D {
   background-color: #004289;
 }
-
 .bar.ABAP {
   background-color: #E8274B;
 }
-
 .bar.ABAP-CDS {
   background-color: #555e25;
 }
-
 .bar.ActionScript {
   background-color: #882B0F;
 }
-
 .bar.Ada {
   background-color: #02f88c;
 }
-
 .bar.Adblock-Filter-List {
   background-color: #800000;
 }
-
 .bar.Adobe-Font-Metrics {
   background-color: #fa0f00;
 }
-
 .bar.Agda {
   background-color: #315665;
 }
-
 .bar.AGS-Script {
   background-color: #B9D9FF;
 }
-
 .bar.AIDL {
   background-color: #34EB6B;
 }
-
 .bar.AL {
   background-color: #3AA2B5;
 }
-
 .bar.Alloy {
   background-color: #64C800;
 }
-
 .bar.Alpine-Abuild {
   background-color: #0D597F;
 }
-
 .bar.Altium-Designer {
   background-color: #A89663;
 }
-
 .bar.AMPL {
   background-color: #E6EFBB;
 }
-
 .bar.AngelScript {
   background-color: #C7D7DC;
 }
-
 .bar.Ant-Build-System {
   background-color: #A9157E;
 }
-
 .bar.Antlers {
   background-color: #ff269e;
 }
-
 .bar.ANTLR {
   background-color: #9DC3FF;
 }
-
 .bar.ApacheConf {
   background-color: #d12127;
 }
-
 .bar.Apex {
   background-color: #1797c0;
 }
-
 .bar.API-Blueprint {
   background-color: #2ACCA8;
 }
-
 .bar.APL {
   background-color: #5A8164;
 }
-
 .bar.Apollo-Guidance-Computer {
   background-color: #0B3D91;
 }
-
 .bar.AppleScript {
   background-color: #101F1F;
 }
-
 .bar.Arc {
   background-color: #aa2afe;
 }
-
 .bar.AsciiDoc {
   background-color: #73a0c5;
 }
-
 .bar.ASL {
   background-color: ;
 }
-
-.bar.ASP.NET {
+.bar.ASPNET {
   background-color: #9400ff;
 }
-
 .bar.AspectJ {
   background-color: #a957b0;
 }
-
 .bar.Assembly {
   background-color: #6E4C13;
 }
-
 .bar.Astro {
   background-color: #ff5a03;
 }
-
 .bar.Asymptote {
   background-color: #ff0000;
 }
-
 .bar.ATS {
   background-color: #1ac620;
 }
-
 .bar.Augeas {
   background-color: #9CC134;
 }
-
 .bar.AutoHotkey {
   background-color: #6594b9;
 }
-
 .bar.AutoIt {
   background-color: #1C3552;
 }
-
 .bar.Avro-IDL {
   background-color: #0040FF;
 }
-
 .bar.Awk {
   background-color: #c30e9b;
 }
-
 .bar.Ballerina {
   background-color: #FF5000;
 }
-
 .bar.BASIC {
   background-color: #ff0000;
 }
-
 .bar.Batchfile {
   background-color: #C1F12E;
 }
-
 .bar.Beef {
   background-color: #a52f4e;
 }
-
 .bar.Befunge {
   background-color: ;
 }
-
 .bar.Berry {
   background-color: #15A13C;
 }
-
 .bar.BibTeX {
   background-color: #778899;
 }
-
 .bar.Bicep {
   background-color: #519aba;
 }
-
 .bar.Bikeshed {
   background-color: #5562ac;
 }
-
 .bar.Bison {
   background-color: #6A463F;
 }
-
 .bar.BitBake {
   background-color: #00bce4;
 }
-
 .bar.Blade {
   background-color: #f7523f;
 }
-
 .bar.BlitzBasic {
   background-color: #00FFAE;
 }
-
 .bar.BlitzMax {
   background-color: #cd6400;
 }
-
 .bar.Bluespec {
   background-color: #12223c;
 }
-
 .bar.Boo {
   background-color: #d4bec1;
 }
-
 .bar.Boogie {
   background-color: #c80fa0;
 }
-
 .bar.Brainfuck {
   background-color: #2F2530;
 }
-
 .bar.BrighterScript {
   background-color: #66AABB;
 }
-
 .bar.Brightscript {
   background-color: #662D91;
 }
-
 .bar.Browserslist {
   background-color: #ffd539;
 }
-
 .bar.C {
   background-color: #555555;
 }
-
-.bar.C# {
+.bar.Csharp {
   background-color: #178600;
 }
-
-.bar.C++ {
+.bar.Cplusplus {
   background-color: #f34b7d;
 }
-
 .bar.C2hs-Haskell {
   background-color: ;
 }
-
 .bar.Cabal-Config {
   background-color: #483465;
 }
-
 .bar.Cadence {
   background-color: #00ef8b;
 }
-
 .bar.Cairo {
   background-color: #ff4a48;
 }
-
 .bar.CameLIGO {
   background-color: #3be133;
 }
-
 .bar.CAP-CDS {
   background-color: #0092d1;
 }
-
-.bar.Cap'n-Proto {
+.bar.Capn-Proto {
   background-color: #c42727;
 }
-
 .bar.CartoCSS {
   background-color: ;
 }
-
 .bar.Ceylon {
   background-color: #dfa535;
 }
-
 .bar.Chapel {
   background-color: #8dc63f;
 }
-
 .bar.Charity {
   background-color: ;
 }
-
 .bar.ChucK {
   background-color: #3f8000;
 }
-
 .bar.Circom {
   background-color: #707575;
 }
-
 .bar.Cirru {
   background-color: #ccccff;
 }
-
 .bar.Clarion {
   background-color: #db901e;
 }
-
 .bar.Clarity {
   background-color: #5546ff;
 }
-
 .bar.Classic-ASP {
   background-color: #6a40fd;
 }
-
 .bar.Clean {
   background-color: #3F85AF;
 }
-
 .bar.Click {
   background-color: #E4E6F3;
 }
-
 .bar.CLIPS {
   background-color: #00A300;
 }
-
 .bar.Clojure {
   background-color: #db5855;
 }
-
 .bar.Closure-Templates {
   background-color: #0d948f;
 }
-
 .bar.Cloud-Firestore-Security-Rules {
   background-color: #FFA000;
 }
-
 .bar.CMake {
   background-color: #DA3434;
 }
-
 .bar.COBOL {
   background-color: ;
 }
-
 .bar.CodeQL {
   background-color: #140f46;
 }
-
 .bar.CoffeeScript {
   background-color: #244776;
 }
-
 .bar.ColdFusion {
   background-color: #ed2cd6;
 }
-
 .bar.ColdFusion-CFC {
   background-color: #ed2cd6;
 }
-
 .bar.COLLADA {
   background-color: #F1A42B;
 }
-
 .bar.Common-Lisp {
   background-color: #3fb68b;
 }
-
 .bar.Common-Workflow-Language {
   background-color: #B5314C;
 }
-
 .bar.Component-Pascal {
   background-color: #B0CE4E;
 }
-
 .bar.Cool {
   background-color: ;
 }
-
 .bar.Coq {
   background-color: #d0b68c;
 }
-
 .bar.Crystal {
   background-color: #000100;
 }
-
 .bar.CSON {
   background-color: #244776;
 }
-
 .bar.Csound {
   background-color: #1a1a1a;
 }
-
 .bar.Csound-Document {
   background-color: #1a1a1a;
 }
-
 .bar.Csound-Score {
   background-color: #1a1a1a;
 }
-
 .bar.CSS {
   background-color: #563d7c;
 }
-
 .bar.CSV {
   background-color: #237346;
 }
-
 .bar.Cuda {
   background-color: #3A4E3A;
 }
-
 .bar.CUE {
   background-color: #5886E1;
 }
-
 .bar.Curry {
   background-color: #531242;
 }
-
 .bar.CWeb {
   background-color: #00007a;
 }
-
 .bar.Cycript {
   background-color: ;
 }
-
 .bar.Cypher {
   background-color: #34c0eb;
 }
-
 .bar.Cython {
   background-color: #fedf5b;
 }
-
 .bar.D {
   background-color: #ba595e;
 }
-
 .bar.Dafny {
   background-color: #FFEC25;
 }
-
 .bar.Darcs-Patch {
   background-color: #8eff23;
 }
-
 .bar.Dart {
   background-color: #00B4AB;
 }
-
 .bar.DataWeave {
   background-color: #003a52;
 }
-
 .bar.Debian-Package-Control-File {
   background-color: #D70751;
 }
-
 .bar.DenizenScript {
   background-color: #FBEE96;
 }
-
 .bar.Dhall {
   background-color: #dfafff;
 }
-
 .bar.DIGITAL-Command-Language {
   background-color: ;
 }
-
 .bar.DirectX-3D-File {
   background-color: #aace60;
 }
-
 .bar.DM {
   background-color: #447265;
 }
-
 .bar.Dockerfile {
   background-color: #384d54;
 }
-
 .bar.Dogescript {
   background-color: #cca760;
 }
-
 .bar.Dotenv {
   background-color: #e5d559;
 }
-
 .bar.DTrace {
   background-color: ;
 }
-
 .bar.Dylan {
   background-color: #6c616e;
 }
-
 .bar.E {
   background-color: #ccce35;
 }
-
 .bar.Earthly {
   background-color: #2af0ff;
 }
-
 .bar.Easybuild {
   background-color: #069406;
 }
-
 .bar.eC {
   background-color: #913960;
 }
-
 .bar.Ecere-Projects {
   background-color: #913960;
 }
-
 .bar.ECL {
   background-color: #8a1267;
 }
-
 .bar.ECLiPSe {
   background-color: #001d9d;
 }
-
 .bar.Ecmarkup {
   background-color: #eb8131;
 }
-
 .bar.EditorConfig {
   background-color: #fff1f2;
 }
-
 .bar.Eiffel {
   background-color: #4d6977;
 }
-
 .bar.EJS {
   background-color: #a91e50;
 }
-
 .bar.Elixir {
   background-color: #6e4a7e;
 }
-
 .bar.Elm {
   background-color: #60B5CC;
 }
-
 .bar.Elvish {
   background-color: #55BB55;
 }
-
 .bar.Elvish-Transcript {
   background-color: #55BB55;
 }
-
 .bar.Emacs-Lisp {
   background-color: #c065db;
 }
-
 .bar.EmberScript {
   background-color: #FFF4F3;
 }
-
 .bar.EQ {
   background-color: #a78649;
 }
-
 .bar.Erlang {
   background-color: #B83998;
 }
-
 .bar.Euphoria {
   background-color: #FF790B;
 }
-
-.bar.F# {
+.bar.Fsharp {
   background-color: #b845fc;
 }
-
-.bar.F* {
+.bar.Fstar {
   background-color: #572e30;
 }
-
 .bar.Factor {
   background-color: #636746;
 }
-
 .bar.Fancy {
   background-color: #7b9db4;
 }
-
 .bar.Fantom {
   background-color: #14253c;
 }
-
 .bar.Faust {
   background-color: #c37240;
 }
-
 .bar.Fennel {
   background-color: #fff3d7;
 }
-
 .bar.FIGlet-Font {
   background-color: #FFDDBB;
 }
-
 .bar.Filebench-WML {
   background-color: #F6B900;
 }
-
 .bar.Filterscript {
   background-color: ;
 }
-
 .bar.fish {
   background-color: #4aae47;
 }
-
 .bar.Fluent {
   background-color: #ffcc33;
 }
-
 .bar.FLUX {
   background-color: #88ccff;
 }
-
 .bar.Forth {
   background-color: #341708;
 }
-
 .bar.Fortran {
   background-color: #4d41b1;
 }
-
 .bar.Fortran-Free-Form {
   background-color: #4d41b1;
 }
-
 .bar.FreeBasic {
   background-color: #141AC9;
 }
-
 .bar.FreeMarker {
   background-color: #0050b2;
 }
-
 .bar.Frege {
   background-color: #00cafe;
 }
-
 .bar.Futhark {
   background-color: #5f021f;
 }
-
-.bar.G-code {
+.bar.Gcode {
   background-color: #D08CF2;
 }
-
 .bar.Game-Maker-Language {
   background-color: #71b417;
 }
-
 .bar.GAML {
   background-color: #FFC766;
 }
-
 .bar.GAMS {
   background-color: #f49a22;
 }
-
 .bar.GAP {
   background-color: #0000cc;
 }
-
 .bar.GCC-Machine-Description {
   background-color: #FFCFAB;
 }
-
 .bar.GDB {
   background-color: ;
 }
-
 .bar.GDScript {
   background-color: #355570;
 }
-
 .bar.GEDCOM {
   background-color: #003058;
 }
-
-.bar.Gemfile.lock {
+.bar.Gemfilelock {
   background-color: #701516;
 }
-
 .bar.Gemini {
   background-color: #ff6900;
 }
-
 .bar.Genero {
   background-color: #63408e;
 }
-
 .bar.Genero-Forms {
   background-color: #d8df39;
 }
-
 .bar.Genie {
   background-color: #fb855d;
 }
-
 .bar.Genshi {
   background-color: #951531;
 }
-
 .bar.Gentoo-Ebuild {
   background-color: #9400ff;
 }
-
 .bar.Gentoo-Eclass {
   background-color: #9400ff;
 }
-
 .bar.Gerber-Image {
   background-color: #d20b00;
 }
-
 .bar.Gherkin {
   background-color: #5B2063;
 }
-
 .bar.Git-Attributes {
   background-color: #F44D27;
 }
-
 .bar.Git-Config {
   background-color: #F44D27;
 }
-
 .bar.Git-Revision-List {
   background-color: #F44D27;
 }
-
 .bar.Gleam {
   background-color: #ffaff3;
 }
-
 .bar.GLSL {
   background-color: #5686a5;
 }
-
 .bar.Glyph {
   background-color: #c1ac7f;
 }
-
 .bar.Gnuplot {
   background-color: #f0a9f0;
 }
-
 .bar.Go {
   background-color: #00ADD8;
 }
-
 .bar.Go-Checksums {
   background-color: #00ADD8;
 }
-
 .bar.Go-Module {
   background-color: #00ADD8;
 }
-
 .bar.Godot-Resource {
   background-color: #355570;
 }
-
 .bar.Golo {
   background-color: #88562A;
 }
-
 .bar.Gosu {
   background-color: #82937f;
 }
-
 .bar.Grace {
   background-color: #615f8b;
 }
-
 .bar.Gradle {
   background-color: #02303a;
 }
-
 .bar.Grammatical-Framework {
   background-color: #ff0000;
 }
-
 .bar.GraphQL {
   background-color: #e10098;
 }
-
-.bar.Graphviz-(DOT) {
+.bar.Graphviz-DOT {
   background-color: #2596be;
 }
-
 .bar.Groovy {
   background-color: #4298b8;
 }
-
 .bar.Groovy-Server-Pages {
   background-color: #4298b8;
 }
-
 .bar.GSC {
   background-color: #FF6800;
 }
-
 .bar.Hack {
   background-color: #878787;
 }
-
 .bar.Haml {
   background-color: #ece2a9;
 }
-
 .bar.Handlebars {
   background-color: #f7931e;
 }
-
 .bar.HAProxy {
   background-color: #106da9;
 }
-
 .bar.Harbour {
   background-color: #0e60e3;
 }
-
 .bar.Haskell {
   background-color: #5e5086;
 }
-
 .bar.Haxe {
   background-color: #df7900;
 }
-
 .bar.HCL {
   background-color: #844FBA;
 }
-
 .bar.HiveQL {
   background-color: #dce200;
 }
-
 .bar.HLSL {
   background-color: #aace60;
 }
-
 .bar.HOCON {
   background-color: #9ff8ee;
 }
-
 .bar.HolyC {
   background-color: #ffefaf;
 }
-
 .bar.hoon {
   background-color: #00b171;
 }
-
 .bar.HTML {
   background-color: #e34c26;
 }
-
-.bar.HTML+ECR {
+.bar.HTMLplusECR {
   background-color: #2e1052;
 }
-
-.bar.HTML+EEX {
+.bar.HTMLplusEEX {
   background-color: #6e4a7e;
 }
-
-.bar.HTML+ERB {
+.bar.HTMLplusERB {
   background-color: #701516;
 }
-
-.bar.HTML+PHP {
+.bar.HTMLplusPHP {
   background-color: #4f5d95;
 }
-
-.bar.HTML+Razor {
+.bar.HTMLplusRazor {
   background-color: #512be4;
 }
-
 .bar.HTTP {
   background-color: #005C9C;
 }
-
 .bar.HXML {
   background-color: #f68712;
 }
-
 .bar.Hy {
   background-color: #7790B2;
 }
-
 .bar.HyPhy {
   background-color: ;
 }
-
 .bar.IDL {
   background-color: #a3522f;
 }
-
 .bar.Idris {
   background-color: #b30000;
 }
-
 .bar.Ignore-List {
   background-color: #000000;
 }
-
 .bar.IGOR-Pro {
   background-color: #0000cc;
 }
-
 .bar.ImageJ-Macro {
   background-color: #99AAFF;
 }
-
 .bar.Imba {
   background-color: #16cec6;
 }
-
 .bar.Inform-7 {
   background-color: ;
 }
-
 .bar.INI {
   background-color: #d1dbe0;
 }
-
 .bar.Ink {
   background-color: ;
 }
-
 .bar.Inno-Setup {
   background-color: #264b99;
 }
-
 .bar.Io {
   background-color: #a9188d;
 }
-
 .bar.Ioke {
   background-color: #078193;
 }
-
 .bar.Isabelle {
   background-color: #FEFE00;
 }
-
 .bar.Isabelle-ROOT {
   background-color: #FEFE00;
 }
-
 .bar.J {
   background-color: #9EEDFF;
 }
-
 .bar.Janet {
   background-color: #0886a5;
 }
-
 .bar.JAR-Manifest {
   background-color: #b07219;
 }
-
 .bar.Jasmin {
   background-color: #d03600;
 }
-
 .bar.Java {
   background-color: #b07219;
 }
-
 .bar.Java-Properties {
   background-color: #2A6277;
 }
-
 .bar.Java-Server-Pages {
   background-color: #2A6277;
 }
-
 .bar.JavaScript {
   background-color: #f1e05a;
 }
-
-.bar.JavaScript+ERB {
+.bar.JavaScriptplusERB {
   background-color: #f1e05a;
 }
-
 .bar.JCL {
   background-color: #d90e09;
 }
-
 .bar.Jest-Snapshot {
   background-color: #15c213;
 }
-
 .bar.JetBrains-MPS {
   background-color: #21D789;
 }
-
 .bar.JFlex {
   background-color: #DBCA00;
 }
-
 .bar.Jinja {
   background-color: #a52a22;
 }
-
 .bar.Jison {
   background-color: #56b3cb;
 }
-
 .bar.Jison-Lex {
   background-color: #56b3cb;
 }
-
 .bar.Jolie {
   background-color: #843179;
 }
-
 .bar.jq {
   background-color: #c7254e;
 }
-
 .bar.JSON {
   background-color: #292929;
 }
-
 .bar.JSON-with-Comments {
   background-color: #292929;
 }
-
 .bar.JSON5 {
   background-color: #267CB9;
 }
-
 .bar.JSONiq {
   background-color: #40d47e;
 }
-
 .bar.JSONLD {
   background-color: #0c479c;
 }
-
 .bar.Jsonnet {
   background-color: #0064bd;
 }
-
 .bar.Julia {
   background-color: #a270ba;
 }
-
 .bar.Jupyter-Notebook {
   background-color: #DA5B0B;
 }
-
 .bar.Just {
   background-color: #384d54;
 }
-
 .bar.Kaitai-Struct {
   background-color: #773b37;
 }
-
 .bar.KakouneScript {
   background-color: #6f8042;
 }
-
 .bar.KerboScript {
   background-color: #41adf0;
 }
-
 .bar.KiCad-Layout {
   background-color: #2f4aab;
 }
-
 .bar.KiCad-Legacy-Layout {
   background-color: #2f4aab;
 }
-
 .bar.KiCad-Schematic {
   background-color: #2f4aab;
 }
-
 .bar.Kotlin {
   background-color: #A97BFF;
 }
-
 .bar.KRL {
   background-color: #28430A;
 }
-
 .bar.kvlang {
   background-color: #1da6e0;
 }
-
 .bar.LabVIEW {
   background-color: #fede06;
 }
-
 .bar.Lark {
   background-color: #2980B9;
 }
-
 .bar.Lasso {
   background-color: #999999;
 }
-
 .bar.Latte {
   background-color: #f2a542;
 }
-
 .bar.Lean {
   background-color: ;
 }
-
 .bar.Less {
   background-color: #1d365d;
 }
-
 .bar.Lex {
   background-color: #DBCA00;
 }
-
 .bar.LFE {
   background-color: #4C3023;
 }
-
 .bar.LigoLANG {
   background-color: #0e74ff;
 }
-
 .bar.LilyPond {
   background-color: #9ccc7c;
 }
-
 .bar.Limbo {
   background-color: ;
 }
-
 .bar.Liquid {
   background-color: #67b8de;
 }
-
 .bar.Literate-Agda {
   background-color: #315665;
 }
-
 .bar.Literate-CoffeeScript {
   background-color: #244776;
 }
-
 .bar.Literate-Haskell {
   background-color: #5e5086;
 }
-
 .bar.LiveScript {
   background-color: #499886;
 }
-
 .bar.LLVM {
   background-color: #185619;
 }
-
 .bar.Logos {
   background-color: ;
 }
-
 .bar.Logtalk {
   background-color: #295b9a;
 }
-
 .bar.LOLCODE {
   background-color: #cc9900;
 }
-
 .bar.LookML {
   background-color: #652B81;
 }
-
 .bar.LoomScript {
   background-color: ;
 }
-
 .bar.LSL {
   background-color: #3d9970;
 }
-
 .bar.Lua {
   background-color: #000080;
 }
-
 .bar.M {
   background-color: ;
 }
-
 .bar.M4 {
   background-color: ;
 }
-
 .bar.M4Sugar {
   background-color: ;
 }
-
 .bar.Macaulay2 {
   background-color: #d8ffff;
 }
-
 .bar.Makefile {
   background-color: #427819;
 }
-
 .bar.Mako {
   background-color: #7e858d;
 }
-
 .bar.Markdown {
   background-color: #083fa1;
 }
-
 .bar.Marko {
   background-color: #42bff2;
 }
-
 .bar.Mask {
   background-color: #f97732;
 }
-
 .bar.Mathematica {
   background-color: #dd1100;
 }
-
 .bar.MATLAB {
   background-color: #e16737;
 }
-
 .bar.Max {
   background-color: #c4a79c;
 }
-
 .bar.MAXScript {
   background-color: #00a6a6;
 }
-
 .bar.mcfunction {
   background-color: #E22837;
 }
-
 .bar.Mercury {
   background-color: #ff2b2b;
 }
-
 .bar.Mermaid {
   background-color: #ff3670;
 }
-
 .bar.Meson {
   background-color: #007800;
 }
-
 .bar.Metal {
   background-color: #8f14e9;
 }
-
 .bar.MiniD {
   background-color: ;
 }
-
 .bar.MiniYAML {
   background-color: #ff1111;
 }
-
 .bar.Mint {
   background-color: #02b046;
 }
-
 .bar.Mirah {
   background-color: #c7a938;
 }
-
 .bar.mIRC-Script {
   background-color: #3d57c3;
 }
-
 .bar.MLIR {
   background-color: #5EC8DB;
 }
-
 .bar.Modelica {
   background-color: #de1d31;
 }
-
-.bar.Modula-2 {
+.bar.Modula2 {
   background-color: #10253f;
 }
-
-.bar.Modula-3 {
+.bar.Modula3 {
   background-color: #223388;
 }
-
 .bar.Module-Management-System {
   background-color: ;
 }
-
 .bar.Monkey {
   background-color: ;
 }
-
 .bar.Monkey-C {
   background-color: #8D6747;
 }
-
 .bar.Moocode {
   background-color: ;
 }
-
 .bar.MoonScript {
   background-color: #ff4585;
 }
-
 .bar.Motoko {
   background-color: #fbb03b;
 }
-
 .bar.Motorola-68K-Assembly {
   background-color: #005daa;
 }
-
 .bar.Move {
   background-color: #4a137a;
 }
-
 .bar.MQL4 {
   background-color: #62A8D6;
 }
-
 .bar.MQL5 {
   background-color: #4A76B8;
 }
-
 .bar.MTML {
   background-color: #b7e1f4;
 }
-
 .bar.MUF {
   background-color: ;
 }
-
 .bar.mupad {
   background-color: #244963;
 }
-
 .bar.Mustache {
   background-color: #724b3b;
 }
-
 .bar.Myghty {
   background-color: ;
 }
-
 .bar.nanorc {
   background-color: #2d004d;
 }
-
 .bar.Nasal {
   background-color: #1d2c4e;
 }
-
 .bar.NASL {
   background-color: ;
 }
-
 .bar.NCL {
   background-color: #28431f;
 }
-
 .bar.Nearley {
   background-color: #990000;
 }
-
 .bar.Nemerle {
   background-color: #3d3c6e;
 }
-
 .bar.nesC {
   background-color: #94B0C7;
 }
-
 .bar.NetLinx {
   background-color: #0aa0ff;
 }
-
-.bar.NetLinx+ERB {
+.bar.NetLinxplusERB {
   background-color: #747faa;
 }
-
 .bar.NetLogo {
   background-color: #ff6375;
 }
-
 .bar.NewLisp {
   background-color: #87AED7;
 }
-
 .bar.Nextflow {
   background-color: #3ac486;
 }
-
 .bar.Nginx {
   background-color: #009639;
 }
-
 .bar.Nim {
   background-color: #ffc200;
 }
-
 .bar.Nit {
   background-color: #009917;
 }
-
 .bar.Nix {
   background-color: #7e7eff;
 }
-
 .bar.NPM-Config {
   background-color: #cb3837;
 }
-
 .bar.NSIS {
   background-color: ;
 }
-
 .bar.Nu {
   background-color: #c9df40;
 }
-
 .bar.NumPy {
   background-color: #9C8AF9;
 }
-
 .bar.Nunjucks {
   background-color: #3d8137;
 }
-
 .bar.NWScript {
   background-color: #111522;
 }
-
-.bar.OASv2-json {
+.bar.OASv2json {
   background-color: #85ea2d;
 }
-
-.bar.OASv2-yaml {
+.bar.OASv2yaml {
   background-color: #85ea2d;
 }
-
-.bar.OASv3-json {
+.bar.OASv3json {
   background-color: #85ea2d;
 }
-
-.bar.OASv3-yaml {
+.bar.OASv3yaml {
   background-color: #85ea2d;
 }
-
-.bar.Objective-C {
+.bar.ObjectiveC {
   background-color: #438eff;
 }
-
-.bar.Objective-C++ {
+.bar.ObjectiveCplusplus {
   background-color: #6866fb;
 }
-
-.bar.Objective-J {
+.bar.ObjectiveJ {
   background-color: #ff0c5a;
 }
-
 .bar.ObjectScript {
   background-color: #424893;
 }
-
 .bar.OCaml {
   background-color: #3be133;
 }
-
 .bar.Odin {
   background-color: #60AFFE;
 }
-
 .bar.Omgrofl {
   background-color: #cabbff;
 }
-
 .bar.ooc {
   background-color: #b0b77e;
 }
-
 .bar.Opa {
   background-color: ;
 }
-
 .bar.Opal {
   background-color: #f7ede0;
 }
-
 .bar.Open-Policy-Agent {
   background-color: #7d9199;
 }
-
 .bar.OpenAPI-Specification-v2 {
   background-color: #85ea2d;
 }
-
 .bar.OpenAPI-Specification-v3 {
   background-color: #85ea2d;
 }
-
 .bar.OpenCL {
   background-color: #ed2e2d;
 }
-
 .bar.OpenEdge-ABL {
   background-color: #5ce600;
 }
-
 .bar.OpenQASM {
   background-color: #AA70FF;
 }
-
 .bar.OpenRC-runscript {
   background-color: ;
 }
-
 .bar.OpenSCAD {
   background-color: #e5cd45;
 }
-
 .bar.Option-List {
   background-color: #476732;
 }
-
 .bar.Org {
   background-color: #77aa99;
 }
-
 .bar.Ox {
   background-color: ;
 }
-
 .bar.Oxygene {
   background-color: #cdd0e3;
 }
-
 .bar.Oz {
   background-color: #fab738;
 }
-
 .bar.P4 {
   background-color: #7055b5;
 }
-
 .bar.Pan {
   background-color: #cc0000;
 }
-
 .bar.Papyrus {
   background-color: #6600cc;
 }
-
 .bar.Parrot {
   background-color: #f3ca0a;
 }
-
 .bar.Parrot-Assembly {
   background-color: ;
 }
-
 .bar.Parrot-Internal-Representation {
   background-color: ;
 }
-
 .bar.Pascal {
   background-color: #E3F171;
 }
-
 .bar.Pawn {
   background-color: #dbb284;
 }
-
 .bar.PDDL {
   background-color: #0d00ff;
 }
-
-.bar.PEG.js {
+.bar.PEGjs {
   background-color: #234d6b;
 }
-
 .bar.Pep8 {
   background-color: #C76F5B;
 }
-
 .bar.Perl {
   background-color: #0298c3;
 }
-
 .bar.PHP {
   background-color: #4F5D95;
 }
-
 .bar.PicoLisp {
   background-color: #6067af;
 }
-
 .bar.PigLatin {
   background-color: #fcd7de;
 }
-
 .bar.Pike {
   background-color: #005390;
 }
-
 .bar.PlantUML {
   background-color: #fbbd16;
 }
-
 .bar.PLpgSQL {
   background-color: #336790;
 }
-
 .bar.PLSQL {
   background-color: #dad8d8;
 }
-
 .bar.PogoScript {
   background-color: #d80074;
 }
-
 .bar.Polar {
   background-color: #ae81ff;
 }
-
 .bar.Pony {
   background-color: ;
 }
-
 .bar.Portugol {
   background-color: #f8bd00;
 }
-
 .bar.PostCSS {
   background-color: #dc3a0c;
 }
-
 .bar.PostScript {
   background-color: #da291c;
 }
-
-.bar.POV-Ray-SDL {
+.bar.POVRay-SDL {
   background-color: #6bac65;
 }
-
 .bar.PowerBuilder {
   background-color: #8f0f8d;
 }
-
 .bar.PowerShell {
   background-color: #012456;
 }
-
 .bar.Prisma {
   background-color: #0c344b;
 }
-
 .bar.Processing {
   background-color: #0096D8;
 }
-
 .bar.Procfile {
   background-color: #3B2F63;
 }
-
 .bar.Prolog {
   background-color: #74283c;
 }
-
 .bar.Promela {
   background-color: #de0000;
 }
-
 .bar.Propeller-Spin {
   background-color: #7fa2a7;
 }
-
 .bar.Pug {
   background-color: #a86454;
 }
-
 .bar.Puppet {
   background-color: #302B6D;
 }
-
 .bar.PureBasic {
   background-color: #5a6986;
 }
-
 .bar.PureScript {
   background-color: #1D222D;
 }
-
 .bar.Pyret {
   background-color: #ee1e10;
 }
-
 .bar.Python {
   background-color: #3572A5;
 }
-
 .bar.Python-console {
   background-color: #3572A5;
 }
-
 .bar.Python-traceback {
   background-color: #3572A5;
 }
-
 .bar.q {
   background-color: #0040cd;
 }
-
-.bar.Q# {
+.bar.Qsharp {
   background-color: #fed659;
 }
-
 .bar.QMake {
   background-color: ;
 }
-
 .bar.QML {
   background-color: #44a51c;
 }
-
 .bar.Qt-Script {
   background-color: #00b841;
 }
-
 .bar.Quake {
   background-color: #882233;
 }
-
 .bar.R {
   background-color: #198CE7;
 }
-
 .bar.Racket {
   background-color: #3c5caa;
 }
-
 .bar.Ragel {
   background-color: #9d5200;
 }
-
 .bar.Raku {
   background-color: #0000fb;
 }
-
 .bar.RAML {
   background-color: #77d9fb;
 }
-
 .bar.Rascal {
   background-color: #fffaa0;
 }
-
 .bar.RDoc {
   background-color: #701516;
 }
-
 .bar.REALbasic {
   background-color: ;
 }
-
 .bar.Reason {
   background-color: #ff5847;
 }
-
 .bar.ReasonLIGO {
   background-color: #ff5847;
 }
-
 .bar.Rebol {
   background-color: #358a5b;
 }
-
 .bar.Record-Jar {
   background-color: #0673ba;
 }
-
 .bar.Red {
   background-color: #f50000;
 }
-
 .bar.Redcode {
   background-color: ;
 }
-
 .bar.Regular-Expression {
   background-color: #009a00;
 }
-
-.bar.Ren'Py {
+.bar.RenPy {
   background-color: #ff7f7f;
 }
-
 .bar.RenderScript {
   background-color: ;
 }
-
 .bar.ReScript {
   background-color: #ed5051;
 }
-
 .bar.reStructuredText {
   background-color: #141414;
 }
-
 .bar.REXX {
   background-color: #d90e09;
 }
-
 .bar.Ring {
   background-color: #2D54CB;
 }
-
 .bar.Riot {
   background-color: #A71E49;
 }
-
 .bar.RMarkdown {
   background-color: #198ce7;
 }
-
 .bar.RobotFramework {
   background-color: #00c0b5;
 }
-
 .bar.Roff {
   background-color: #ecdebe;
 }
-
 .bar.Roff-Manpage {
   background-color: #ecdebe;
 }
-
 .bar.Rouge {
   background-color: #cc0088;
 }
-
 .bar.RouterOS-Script {
   background-color: #DE3941;
 }
-
 .bar.RPC {
   background-color: ;
 }
-
 .bar.RPGLE {
   background-color: #2BDE21;
 }
-
 .bar.Ruby {
   background-color: #701516;
 }
-
 .bar.RUNOFF {
   background-color: #665a4e;
 }
-
 .bar.Rust {
   background-color: #dea584;
 }
-
 .bar.Sage {
   background-color: ;
 }
-
 .bar.SaltStack {
   background-color: #646464;
 }
-
 .bar.SAS {
   background-color: #B34936;
 }
-
 .bar.Sass {
   background-color: #a53b70;
 }
-
 .bar.Scala {
   background-color: #c22d40;
 }
-
 .bar.Scaml {
   background-color: #bd181a;
 }
-
 .bar.Scenic {
   background-color: #fdc700;
 }
-
 .bar.Scheme {
   background-color: #1e4aec;
 }
-
 .bar.Scilab {
   background-color: #ca0f21;
 }
-
 .bar.SCSS {
   background-color: #c6538c;
 }
-
 .bar.sed {
   background-color: #64b970;
 }
-
 .bar.Self {
   background-color: #0579aa;
 }
-
 .bar.ShaderLab {
   background-color: #222c37;
 }
-
 .bar.Shell {
   background-color: #89e051;
 }
-
 .bar.ShellCheck-Config {
   background-color: #cecfcb;
 }
-
 .bar.ShellSession {
   background-color: ;
 }
-
 .bar.Shen {
   background-color: #120F14;
 }
-
 .bar.Sieve {
   background-color: ;
 }
-
 .bar.Simple-File-Verification {
   background-color: #C9BFED;
 }
-
 .bar.Singularity {
   background-color: #64E6AD;
 }
-
 .bar.Slash {
   background-color: #007eff;
 }
-
 .bar.Slice {
   background-color: #003fa2;
 }
-
 .bar.Slim {
   background-color: #2b2b2b;
 }
-
 .bar.Smali {
   background-color: ;
 }
-
 .bar.Smalltalk {
   background-color: #596706;
 }
-
 .bar.Smarty {
   background-color: #f0c040;
 }
-
 .bar.Smithy {
   background-color: #c44536;
 }
-
 .bar.SmPL {
   background-color: #c94949;
 }
-
 .bar.SMT {
   background-color: ;
 }
-
 .bar.Snakemake {
   background-color: #419179;
 }
-
 .bar.Solidity {
   background-color: #AA6746;
 }
-
 .bar.SourcePawn {
   background-color: #f69e1d;
 }
-
 .bar.SPARQL {
   background-color: #0C4597;
 }
-
 .bar.SQF {
   background-color: #3F3F3F;
 }
-
 .bar.SQL {
   background-color: #e38c00;
 }
-
 .bar.SQLPL {
   background-color: #e38c00;
 }
-
 .bar.Squirrel {
   background-color: #800000;
 }
-
 .bar.SRecode-Template {
   background-color: #348a34;
 }
-
 .bar.Stan {
   background-color: #b2011d;
 }
-
 .bar.Standard-ML {
   background-color: #dc566d;
 }
-
 .bar.Starlark {
   background-color: #76d275;
 }
-
 .bar.Stata {
   background-color: #1a5f91;
 }
-
 .bar.STL {
   background-color: #373b5e;
 }
-
 .bar.StringTemplate {
   background-color: #3fb34f;
 }
-
 .bar.Stylus {
   background-color: #ff6347;
 }
-
 .bar.SubRip-Text {
   background-color: #9e0101;
 }
-
 .bar.SugarSS {
   background-color: #2fcc9f;
 }
-
 .bar.SuperCollider {
   background-color: #46390b;
 }
-
 .bar.Svelte {
   background-color: #ff3e00;
 }
-
 .bar.SVG {
   background-color: #ff9900;
 }
-
 .bar.Sway {
   background-color: #dea584;
 }
-
 .bar.Swift {
   background-color: #F05138;
 }
-
 .bar.SWIG {
   background-color: ;
 }
-
 .bar.SystemVerilog {
   background-color: #DAE1C2;
 }
-
 .bar.Talon {
   background-color: #333333;
 }
-
 .bar.Tcl {
   background-color: #e4cc98;
 }
-
 .bar.Tcsh {
   background-color: ;
 }
-
 .bar.Terra {
   background-color: #00004c;
 }
-
 .bar.TeX {
   background-color: #3D6117;
 }
-
 .bar.Textile {
   background-color: #ffe7ac;
 }
-
 .bar.TextMate-Properties {
   background-color: #df66e4;
 }
-
 .bar.Thrift {
   background-color: #D12127;
 }
-
 .bar.TI-Program {
   background-color: #A0AA87;
 }
-
 .bar.TLA {
   background-color: #4b0079;
 }
-
 .bar.TOML {
   background-color: #9c4221;
 }
-
 .bar.TSQL {
   background-color: #e38c00;
 }
-
 .bar.TSV {
   background-color: #237346;
 }
-
 .bar.TSX {
   background-color: #3178c6;
 }
-
 .bar.Turing {
   background-color: #cf142b;
 }
-
 .bar.Twig {
   background-color: #c1d026;
 }
-
 .bar.TXL {
   background-color: #0178b8;
 }
-
 .bar.TypeScript {
   background-color: #3178c6;
 }
-
 .bar.Unified-Parallel-C {
   background-color: #4e3617;
 }
-
 .bar.Unity3D-Asset {
   background-color: #222c37;
 }
-
 .bar.Unix-Assembly {
   background-color: ;
 }
-
 .bar.Uno {
   background-color: #9933cc;
 }
-
 .bar.UnrealScript {
   background-color: #a54c4d;
 }
-
 .bar.UrWeb {
   background-color: #ccccee;
 }
-
 .bar.V {
   background-color: #4f87c4;
 }
-
 .bar.Vala {
   background-color: #a56de2;
 }
-
 .bar.Valve-Data-Format {
   background-color: #f26025;
 }
-
 .bar.VBA {
   background-color: #867db1;
 }
-
 .bar.VBScript {
   background-color: #15dcdc;
 }
-
 .bar.VCL {
   background-color: #148AA8;
 }
-
 .bar.Velocity-Template-Language {
   background-color: #507cff;
 }
-
 .bar.Verilog {
   background-color: #b2b7f8;
 }
-
 .bar.VHDL {
   background-color: #adb2cb;
 }
-
 .bar.Vim-Help-File {
   background-color: #199f4b;
 }
-
 .bar.Vim-Script {
   background-color: #199f4b;
 }
-
 .bar.Vim-Snippet {
   background-color: #199f4b;
 }
-
-.bar.Visual-Basic-.NET {
+.bar.Visual-Basic-NET {
   background-color: #945db7;
 }
-
-.bar.Visual-Basic-6.0 {
+.bar.Visual-Basic-60 {
   background-color: #2c6353;
 }
-
 .bar.Volt {
   background-color: #1F1F1F;
 }
-
 .bar.Vue {
   background-color: #41b883;
 }
-
 .bar.Vyper {
   background-color: #2980b9;
 }
-
 .bar.wdl {
   background-color: #42f1f4;
 }
-
 .bar.Web-Ontology-Language {
   background-color: #5b70bd;
 }
-
 .bar.WebAssembly {
   background-color: #04133b;
 }
-
 .bar.WebIDL {
   background-color: ;
 }
-
 .bar.Whiley {
   background-color: #d5c397;
 }
-
 .bar.Wikitext {
   background-color: #fc5757;
 }
-
 .bar.Windows-Registry-Entries {
   background-color: #52d5ff;
 }
-
 .bar.wisp {
   background-color: #7582D1;
 }
-
 .bar.Witcher-Script {
   background-color: #ff0000;
 }
-
 .bar.Wollok {
   background-color: #a23738;
 }
-
 .bar.World-of-Warcraft-Addon-Data {
   background-color: #f7e43f;
 }
-
 .bar.Wren {
   background-color: #383838;
 }
-
 .bar.X10 {
   background-color: #4B6BEF;
 }
-
 .bar.xBase {
   background-color: #403a40;
 }
-
 .bar.XC {
   background-color: #99DA07;
 }
-
 .bar.XML {
   background-color: #0060ac;
 }
-
 .bar.XML-Property-List {
   background-color: #0060ac;
 }
-
 .bar.Xojo {
   background-color: #81bd41;
 }
-
 .bar.Xonsh {
   background-color: #285EEF;
 }
-
 .bar.XProc {
   background-color: ;
 }
-
 .bar.XQuery {
   background-color: #5232e7;
 }
-
 .bar.XS {
   background-color: ;
 }
-
 .bar.XSLT {
   background-color: #EB8CEB;
 }
-
 .bar.Xtend {
   background-color: #24255d;
 }
-
 .bar.Yacc {
   background-color: #4B6C4B;
 }
-
 .bar.YAML {
   background-color: #cb171e;
 }
-
 .bar.YARA {
   background-color: #220000;
 }
-
 .bar.YASnippet {
   background-color: #32AB90;
 }
-
 .bar.Yul {
   background-color: #794932;
 }
-
 .bar.ZAP {
   background-color: #0d665e;
 }
-
 .bar.Zeek {
   background-color: ;
 }
-
 .bar.ZenScript {
   background-color: #00BCD1;
 }
-
 .bar.Zephir {
   background-color: #118f9e;
 }
-
 .bar.Zig {
   background-color: #ec915c;
 }
-
 .bar.ZIL {
   background-color: #dc75e5;
 }
-
 .bar.Zimpl {
   background-color: #d67711;
 }

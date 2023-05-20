@@ -5,17 +5,24 @@ require "json"
 # The json can be found at:
 # https://github.com/ozh/github-colors/blob/master/colors.json
 
-json_string = File.read("colors.json")
-json = JSON.parse(json_string)
-
-css_content = [] of String
-json.as_h.each do |lang, data|
-  lang = lang.gsub(/ /, "-")
-  color = data["color"]
-
-  css_entry = ".bar.#{lang} {\n  background-color: #{color};\n}\n"
-  css_content << css_entry
+colorsjson = Hash(String, JSON::Any).new
+File.open("colors.json") do |file|
+  colorsjson = JSON.parse(file).as_h
 end
 
-file_path = "colors.css"
-File.write(file_path, css_content.join("\n"))
+colorsjson.each do |lang, data|
+  lang = lang.gsub(/\W/, {
+    " " => "-",
+    "+" => "plus",
+    "#" => "sharp",
+    "*" => "star",
+    # other non-word characters just get removed
+  })
+  color = data["color"]
+
+  puts <<-CSS
+  .bar.#{lang} {
+    background-color: #{color};
+  }
+  CSS
+end
