@@ -85,9 +85,6 @@
 .bar.AsciiDoc {
   background-color: #73a0c5;
 }
-.bar.ASL {
-  background-color: ;
-}
 .bar.ASPNET {
   background-color: #9400ff;
 }
@@ -132,9 +129,6 @@
 }
 .bar.Beef {
   background-color: #a52f4e;
-}
-.bar.Befunge {
-  background-color: ;
 }
 .bar.Berry {
   background-color: #15A13C;
@@ -193,9 +187,6 @@
 .bar.Cplusplus {
   background-color: #f34b7d;
 }
-.bar.C2hs-Haskell {
-  background-color: ;
-}
 .bar.Cabal-Config {
   background-color: #483465;
 }
@@ -214,17 +205,11 @@
 .bar.Capn-Proto {
   background-color: #c42727;
 }
-.bar.CartoCSS {
-  background-color: ;
-}
 .bar.Ceylon {
   background-color: #dfa535;
 }
 .bar.Chapel {
   background-color: #8dc63f;
-}
-.bar.Charity {
-  background-color: ;
 }
 .bar.ChucK {
   background-color: #3f8000;
@@ -265,9 +250,6 @@
 .bar.CMake {
   background-color: #DA3434;
 }
-.bar.COBOL {
-  background-color: ;
-}
 .bar.CodeQL {
   background-color: #140f46;
 }
@@ -291,9 +273,6 @@
 }
 .bar.Component-Pascal {
   background-color: #B0CE4E;
-}
-.bar.Cool {
-  background-color: ;
 }
 .bar.Coq {
   background-color: #d0b68c;
@@ -331,9 +310,6 @@
 .bar.CWeb {
   background-color: #00007a;
 }
-.bar.Cycript {
-  background-color: ;
-}
 .bar.Cypher {
   background-color: #34c0eb;
 }
@@ -364,9 +340,6 @@
 .bar.Dhall {
   background-color: #dfafff;
 }
-.bar.DIGITAL-Command-Language {
-  background-color: ;
-}
 .bar.DirectX-3D-File {
   background-color: #aace60;
 }
@@ -381,9 +354,6 @@
 }
 .bar.Dotenv {
   background-color: #e5d559;
-}
-.bar.DTrace {
-  background-color: ;
 }
 .bar.Dylan {
   background-color: #6c616e;
@@ -475,9 +445,6 @@
 .bar.Filebench-WML {
   background-color: #F6B900;
 }
-.bar.Filterscript {
-  background-color: ;
-}
 .bar.fish {
   background-color: #4aae47;
 }
@@ -525,9 +492,6 @@
 }
 .bar.GCC-Machine-Description {
   background-color: #FFCFAB;
-}
-.bar.GDB {
-  background-color: ;
 }
 .bar.GDScript {
   background-color: #355570;
@@ -694,9 +658,6 @@
 .bar.Hy {
   background-color: #7790B2;
 }
-.bar.HyPhy {
-  background-color: ;
-}
 .bar.IDL {
   background-color: #a3522f;
 }
@@ -715,14 +676,8 @@
 .bar.Imba {
   background-color: #16cec6;
 }
-.bar.Inform-7 {
-  background-color: ;
-}
 .bar.INI {
   background-color: #d1dbe0;
-}
-.bar.Ink {
-  background-color: ;
 }
 .bar.Inno-Setup {
   background-color: #264b99;
@@ -859,9 +814,6 @@
 .bar.Latte {
   background-color: #f2a542;
 }
-.bar.Lean {
-  background-color: ;
-}
 .bar.Less {
   background-color: #1d365d;
 }
@@ -876,9 +828,6 @@
 }
 .bar.LilyPond {
   background-color: #9ccc7c;
-}
-.bar.Limbo {
-  background-color: ;
 }
 .bar.Liquid {
   background-color: #67b8de;
@@ -898,9 +847,6 @@
 .bar.LLVM {
   background-color: #185619;
 }
-.bar.Logos {
-  background-color: ;
-}
 .bar.Logtalk {
   background-color: #295b9a;
 }
@@ -910,23 +856,11 @@
 .bar.LookML {
   background-color: #652B81;
 }
-.bar.LoomScript {
-  background-color: ;
-}
 .bar.LSL {
   background-color: #3d9970;
 }
 .bar.Lua {
   background-color: #000080;
-}
-.bar.M {
-  background-color: ;
-}
-.bar.M4 {
-  background-color: ;
-}
-.bar.M4Sugar {
-  background-color: ;
 }
 .bar.Macaulay2 {
   background-color: #d8ffff;
@@ -973,9 +907,6 @@
 .bar.Metal {
   background-color: #8f14e9;
 }
-.bar.MiniD {
-  background-color: ;
-}
 .bar.MiniYAML {
   background-color: #ff1111;
 }
@@ -1000,17 +931,8 @@
 .bar.Modula3 {
   background-color: #223388;
 }
-.bar.Module-Management-System {
-  background-color: ;
-}
-.bar.Monkey {
-  background-color: ;
-}
 .bar.Monkey-C {
   background-color: #8D6747;
-}
-.bar.Moocode {
-  background-color: ;
 }
 .bar.MoonScript {
   background-color: #ff4585;
@@ -1033,26 +955,17 @@
 .bar.MTML {
   background-color: #b7e1f4;
 }
-.bar.MUF {
-  background-color: ;
-}
 .bar.mupad {
   background-color: #244963;
 }
 .bar.Mustache {
   background-color: #724b3b;
 }
-.bar.Myghty {
-  background-color: ;
-}
 .bar.nanorc {
   background-color: #2d004d;
 }
 .bar.Nasal {
   background-color: #1d2c4e;
-}
-.bar.NASL {
-  background-color: ;
 }
 .bar.NCL {
   background-color: #28431f;
@@ -1095,9 +1008,6 @@
 }
 .bar.NPM-Config {
   background-color: #cb3837;
-}
-.bar.NSIS {
-  background-color: ;
 }
 .bar.Nu {
   background-color: #c9df40;
@@ -1147,9 +1057,6 @@
 .bar.ooc {
   background-color: #b0b77e;
 }
-.bar.Opa {
-  background-color: ;
-}
 .bar.Opal {
   background-color: #f7ede0;
 }
@@ -1171,9 +1078,6 @@
 .bar.OpenQASM {
   background-color: #AA70FF;
 }
-.bar.OpenRC-runscript {
-  background-color: ;
-}
 .bar.OpenSCAD {
   background-color: #e5cd45;
 }
@@ -1182,9 +1086,6 @@
 }
 .bar.Org {
   background-color: #77aa99;
-}
-.bar.Ox {
-  background-color: ;
 }
 .bar.Oxygene {
   background-color: #cdd0e3;
@@ -1203,12 +1104,6 @@
 }
 .bar.Parrot {
   background-color: #f3ca0a;
-}
-.bar.Parrot-Assembly {
-  background-color: ;
-}
-.bar.Parrot-Internal-Representation {
-  background-color: ;
 }
 .bar.Pascal {
   background-color: #E3F171;
@@ -1254,9 +1149,6 @@
 }
 .bar.Polar {
   background-color: #ae81ff;
-}
-.bar.Pony {
-  background-color: ;
 }
 .bar.Portugol {
   background-color: #f8bd00;
@@ -1324,9 +1216,6 @@
 .bar.Qsharp {
   background-color: #fed659;
 }
-.bar.QMake {
-  background-color: ;
-}
 .bar.QML {
   background-color: #44a51c;
 }
@@ -1357,9 +1246,6 @@
 .bar.RDoc {
   background-color: #701516;
 }
-.bar.REALbasic {
-  background-color: ;
-}
 .bar.Reason {
   background-color: #ff5847;
 }
@@ -1375,17 +1261,11 @@
 .bar.Red {
   background-color: #f50000;
 }
-.bar.Redcode {
-  background-color: ;
-}
 .bar.Regular-Expression {
   background-color: #009a00;
 }
 .bar.RenPy {
   background-color: #ff7f7f;
-}
-.bar.RenderScript {
-  background-color: ;
 }
 .bar.ReScript {
   background-color: #ed5051;
@@ -1420,9 +1300,6 @@
 .bar.RouterOS-Script {
   background-color: #DE3941;
 }
-.bar.RPC {
-  background-color: ;
-}
 .bar.RPGLE {
   background-color: #2BDE21;
 }
@@ -1434,9 +1311,6 @@
 }
 .bar.Rust {
   background-color: #dea584;
-}
-.bar.Sage {
-  background-color: ;
 }
 .bar.SaltStack {
   background-color: #646464;
@@ -1480,14 +1354,8 @@
 .bar.ShellCheck-Config {
   background-color: #cecfcb;
 }
-.bar.ShellSession {
-  background-color: ;
-}
 .bar.Shen {
   background-color: #120F14;
-}
-.bar.Sieve {
-  background-color: ;
 }
 .bar.Simple-File-Verification {
   background-color: #C9BFED;
@@ -1504,9 +1372,6 @@
 .bar.Slim {
   background-color: #2b2b2b;
 }
-.bar.Smali {
-  background-color: ;
-}
 .bar.Smalltalk {
   background-color: #596706;
 }
@@ -1518,9 +1383,6 @@
 }
 .bar.SmPL {
   background-color: #c94949;
-}
-.bar.SMT {
-  background-color: ;
 }
 .bar.Snakemake {
   background-color: #419179;
@@ -1591,9 +1453,6 @@
 .bar.Swift {
   background-color: #F05138;
 }
-.bar.SWIG {
-  background-color: ;
-}
 .bar.SystemVerilog {
   background-color: #DAE1C2;
 }
@@ -1602,9 +1461,6 @@
 }
 .bar.Tcl {
   background-color: #e4cc98;
-}
-.bar.Tcsh {
-  background-color: ;
 }
 .bar.Terra {
   background-color: #00004c;
@@ -1656,9 +1512,6 @@
 }
 .bar.Unity3D-Asset {
   background-color: #222c37;
-}
-.bar.Unix-Assembly {
-  background-color: ;
 }
 .bar.Uno {
   background-color: #9933cc;
@@ -1729,9 +1582,6 @@
 .bar.WebAssembly {
   background-color: #04133b;
 }
-.bar.WebIDL {
-  background-color: ;
-}
 .bar.Whiley {
   background-color: #d5c397;
 }
@@ -1777,14 +1627,8 @@
 .bar.Xonsh {
   background-color: #285EEF;
 }
-.bar.XProc {
-  background-color: ;
-}
 .bar.XQuery {
   background-color: #5232e7;
-}
-.bar.XS {
-  background-color: ;
 }
 .bar.XSLT {
   background-color: #EB8CEB;
@@ -1809,9 +1653,6 @@
 }
 .bar.ZAP {
   background-color: #0d665e;
-}
-.bar.Zeek {
-  background-color: ;
 }
 .bar.ZenScript {
   background-color: #00BCD1;

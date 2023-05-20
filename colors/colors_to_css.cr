@@ -18,11 +18,11 @@ colorsjson.each do |lang, data|
     "*" => "star",
     # other non-word characters just get removed
   })
-  color = data["color"]
-
-  puts <<-CSS
-  .bar.#{lang} {
-    background-color: #{color};
-  }
-  CSS
+  if color = data["color"].as_s?
+    puts <<-CSS
+    .bar.#{lang} {
+      background-color: #{color};
+    }
+    CSS
+  end
 end
