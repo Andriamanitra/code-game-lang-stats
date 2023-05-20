@@ -5,7 +5,7 @@ class SiteStats
 
   @@lang_aliases = {
     "agda"         => "Agda",
-    "awk"          => "AWK",
+    "awk"          => "Awk",
     "bash"         => "Bash",
     "bf"           => "BF",
     "brainfuck"    => "BF",
@@ -59,6 +59,7 @@ class SiteStats
     "powershell"   => "PowerShell",
     "prolog"       => "Prolog",
     "purescript"   => "PureScript",
+    "pypy"         => "Python",
     "python"       => "Python",
     "python2"      => "Python",
     "python3"      => "Python",
