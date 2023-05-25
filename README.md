@@ -9,6 +9,7 @@ Fetch and visualize number of solutions per language on various coding problem s
 * Exercism
 * Leetcode
 * atcoder.jp
+* Codeforces
 
 Please create an issue if you know of another site that should be added!
 

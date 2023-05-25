@@ -12,6 +12,7 @@ class SiteStats
     "c"            => "C",
     "c++"          => "C++",
     "cpp"          => "C++",
+    "gnuc"         => "C",
     "csharp"       => "C#",
     "c#"           => "C#",
     "clojure"      => "Clojure",
@@ -42,10 +43,14 @@ class SiteStats
     "julia"        => "Julia",
     "janet"        => "Janet",
     "java"         => "Java",
+    "java7"        => "Java",
+    "java8"        => "Java",
+    "java17"       => "Java",
     "javascript"   => "JS",
     "js"           => "JS",
     "k"            => "K",
     "kotlin"       => "Kotlin",
+    "kotlin1.4"    => "Kotlin",
     "lisp"         => "Lisp",
     "lua"          => "Lua",
     "mysql"        => "SQL",
@@ -60,15 +65,19 @@ class SiteStats
     "prolog"       => "Prolog",
     "purescript"   => "PureScript",
     "pypy"         => "Python",
+    "pypy3"        => "Python",
+    "pypy364"      => "Python",
     "python"       => "Python",
     "python2"      => "Python",
     "python3"      => "Python",
+    "q#"           => "Q#",
     "r"            => "R",
     "racket"       => "Racket",
     "raku"         => "Raku",
     "reason"       => "Reason",
     "ruby"         => "Ruby",
     "rust"         => "Rust",
+    "rust2021"     => "Rust",
     "scala"        => "Scala",
     "scheme"       => "Scheme",
     "solidity"     => "Solidity",
@@ -88,10 +97,19 @@ class SiteStats
   def initialize(
     @username : String,
     @profile_url : String,
-    @solved_by_language : Hash(Langname, Int32)
+    solved_by_language : Hash(Langname, Int32)
   )
-    @solved_by_language = @solved_by_language.transform_keys do |lang|
-      @@lang_aliases.fetch(lang.downcase.gsub(/[\s-]/, ""), lang)
+    @solved_by_language = Hash(Langname, Int32).new(0)
+    solved_by_language.each do |lang, count|
+      @solved_by_language[SiteStats.lang_alias(lang)] += count
     end
+  end
+
+  def self.lang_alias(name : Langname) : Langname
+    # some sites have way too many aliases for C++ to list
+    # explicitly with various compiler versions etc...
+    return "C++" if name.downcase.includes?("c++")
+
+    @@lang_aliases.fetch(name.downcase.gsub(/[\s-]+/, ""), name)
   end
 end
