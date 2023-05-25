@@ -3,6 +3,7 @@ class Codeforces < SiteStats
   # https://codeforces.com/apiHelp
   # Consider to lower the "count=50000" if it takes
   @@api_url = "https://codeforces.com/api/user.status?handle=%s&from=1&count=100000"
+  alias ProblemId = {Int32, String}
 
   def self.fetch_lang_stats(username : String) : Hash(Langname, Int32)?
     stats = Hash(Langname, Int32).new(0)
@@ -14,15 +15,17 @@ class Codeforces < SiteStats
     obj = JSON.parse(response.body)
     return nil if obj.nil? || obj["status"] != "OK"
 
-    seen = Set(String).new
+    seen = Set({ProblemId, Langname}).new
     obj["result"].as_a.each do |item|
       next if item["verdict"] != "OK"
 
       # Ignore multiple submissions in the same language to the same problem
+      contest_id = item.dig?("problem", "contestId").try(&.as_i)
+      problem_index = item["problem"]["index"].as_s
+      problem_id = {contest_id || -1, problem_index}
       language = item["programmingLanguage"].as_s
-      title = item["problem"]["name"].as_s
-      key = language + title
-      next if seen.includes? key
+      key = {problem_id, lang_alias(language)}
+      next if seen.includes?(key)
 
       seen.add(key)
       stats[language] += 1
