@@ -12,14 +12,7 @@ class SiteStats
     "c"            => "C",
     "c++"          => "C++",
     "cpp"          => "C++",
-    "gnuc++"       => "C++",
-    "gnuc++11"     => "C++",
-    "gnuc++14"     => "C++",
-    "gnuc++17"     => "C++",
-    "gnuc++17(64)" => "C++",
-    "gnuc++20"     => "C++",
-    "gnuc++20(64)" => "C++",
-    "msc++"        => "C++",
+    "gnuc"         => "C",
     "csharp"       => "C#",
     "c#"           => "C#",
     "clojure"      => "Clojure",
@@ -50,6 +43,7 @@ class SiteStats
     "julia"        => "Julia",
     "janet"        => "Janet",
     "java"         => "Java",
+    "java7"        => "Java",
     "java8"        => "Java",
     "java17"       => "Java",
     "javascript"   => "JS",
@@ -103,14 +97,19 @@ class SiteStats
   def initialize(
     @username : String,
     @profile_url : String,
-    @solved_by_language : Hash(Langname, Int32)
+    solved_by_language : Hash(Langname, Int32)
   )
-    @cumulative = Hash(Langname, Int32).new(0)
-    @solved_by_language.each do |lang, solved|
-      lang_alias = @@lang_aliases.fetch(lang.downcase.gsub(/[\s-]/, ""), lang)
-      @cumulative[lang_alias] += solved
+    @solved_by_language = Hash(Langname, Int32).new(0)
+    solved_by_language.each do |lang, count|
+      @solved_by_language[SiteStats.lang_alias(lang)] += count
     end
+  end
 
-    @solved_by_language = @cumulative
+  def self.lang_alias(name : Langname) : Langname
+    # some sites have way too many aliases for C++ to list
+    # explicitly with various compiler versions etc...
+    return "C++" if name.downcase.includes?("c++")
+
+    @@lang_aliases.fetch(name.downcase.gsub(/[\s-]+/, ""), name)
   end
 end
