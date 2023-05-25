@@ -1,7 +1,8 @@
 class Codeforces < SiteStats
-  @@url_regex = Regex.new("https?://codeforces[.]com/profile/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?codeforces[.]com/profile/(?<username>\\w+)")
   # https://codeforces.com/apiHelp
-  @@api_url = "https://codeforces.com/api/user.status?handle=%s&from=1&count=10000"
+  # Consider to lower the "count=50000" if it takes
+  @@api_url = "https://codeforces.com/api/user.status?handle=%s&from=1&count=100000"
 
   def self.fetch_lang_stats(username : String) : Hash(Langname, Int32)?
     stats = Hash(Langname, Int32).new(0)
@@ -13,13 +14,17 @@ class Codeforces < SiteStats
     obj = JSON.parse(response.body)
     return nil if obj.nil? || obj["status"] != "OK"
 
+    seen = Set(String).new
     obj["result"].as_a.each do |item|
       next if item["verdict"] != "OK"
 
+      # Ignore multiple submissions in the same language to the same problem
       language = item["programmingLanguage"].as_s
-      # Removes espaces for the JSON to work later on:
-      #     PyPy 3-64 -> PyPy-3-64
-      language = language.gsub(/ /, "-")
+      title = item["problem"]["name"].as_s
+      key = language + title
+      next if seen.includes? key
+
+      seen.add(key)
       stats[language] += 1
     end
 

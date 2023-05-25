@@ -12,6 +12,14 @@ class SiteStats
     "c"            => "C",
     "c++"          => "C++",
     "cpp"          => "C++",
+    "gnuc++"       => "C++",
+    "gnuc++11"     => "C++",
+    "gnuc++14"     => "C++",
+    "gnuc++17"     => "C++",
+    "gnuc++17(64)" => "C++",
+    "gnuc++20"     => "C++",
+    "gnuc++20(64)" => "C++",
+    "msc++"        => "C++",
     "csharp"       => "C#",
     "c#"           => "C#",
     "clojure"      => "Clojure",
@@ -42,10 +50,13 @@ class SiteStats
     "julia"        => "Julia",
     "janet"        => "Janet",
     "java"         => "Java",
+    "java8"        => "Java",
+    "java17"       => "Java",
     "javascript"   => "JS",
     "js"           => "JS",
     "k"            => "K",
     "kotlin"       => "Kotlin",
+    "kotlin1.4"    => "Kotlin",
     "lisp"         => "Lisp",
     "lua"          => "Lua",
     "mysql"        => "SQL",
@@ -60,15 +71,19 @@ class SiteStats
     "prolog"       => "Prolog",
     "purescript"   => "PureScript",
     "pypy"         => "Python",
+    "pypy3"        => "Python",
+    "pypy364"      => "Python",
     "python"       => "Python",
     "python2"      => "Python",
     "python3"      => "Python",
+    "q#"           => "Q#",
     "r"            => "R",
     "racket"       => "Racket",
     "raku"         => "Raku",
     "reason"       => "Reason",
     "ruby"         => "Ruby",
     "rust"         => "Rust",
+    "rust2021"     => "Rust",
     "scala"        => "Scala",
     "scheme"       => "Scheme",
     "solidity"     => "Solidity",
@@ -90,8 +105,12 @@ class SiteStats
     @profile_url : String,
     @solved_by_language : Hash(Langname, Int32)
   )
-    @solved_by_language = @solved_by_language.transform_keys do |lang|
-      @@lang_aliases.fetch(lang.downcase.gsub(/[\s-]/, ""), lang)
+    @cumulative = Hash(Langname, Int32).new(0)
+    @solved_by_language.each do |lang, solved|
+      lang_alias = @@lang_aliases.fetch(lang.downcase.gsub(/[\s-]/, ""), lang)
+      @cumulative[lang_alias] += solved
     end
+
+    @solved_by_language = @cumulative
   end
 end
