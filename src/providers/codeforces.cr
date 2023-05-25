@@ -1,5 +1,5 @@
 class Codeforces < SiteStats
-  @@url_regex = Regex.new("https?://(www[.])?codeforces[.]com/profile/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?codeforces[.]com/profile/(?<username>[\\w\\.-]+)")
   # https://codeforces.com/apiHelp
   # Consider to lower the "count=50000" if it takes
   @@api_url = "https://codeforces.com/api/user.status?handle=%s&from=1&count=100000"
