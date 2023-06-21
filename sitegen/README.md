@@ -2,7 +2,7 @@
 
 `generate.js` script in this directory is intended for automatically generating static html from codestats.
 
-Modify the `PROFILES` variable at the top of the file and execute the script:
+Make sure the server is running, modify the `PROFILES` variable at the top of `generate.js` file, and execute the script:
 ```
 $ node generate.js > index.html
 ```
