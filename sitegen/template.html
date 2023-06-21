@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a {
+      white-space: nowrap;
+    }
+
+    .code-site-stats {
+        outline: 1px solid rgba(0,0,0,0.5);
+    }
+
+    .code-site-stats small {
+        line-height: 2rem;
+        margin: 1ch;
+    }
+
+    #results-table {
+        border-spacing: 0;
+    }
+    
+    .lang-header-row td {
+        font-size: 0.7rem;
+    }
+    
+    .bars-row {
+        height: 100px;
+    }
+    
+    .bars-row td {
+        position: relative;
+        min-width: 3.5ch;
+    }
+
+    .total-row {
+        font-weight: bold;
+    }
+
+    td {
+        text-align: center;
+        background: white;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    td:nth-of-type(1) {
+        padding: 0.5em 1em;
+        text-align: left;
+    }
+
+    tr:nth-of-type(n+2) td:nth-of-type(n+2) {
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    
+    .bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 3ch;
+        background: blue;
+    }
+  </style>
+  <title>code-game-lang-stats</title>
+</head>
+
+<body>
+  <div class="code-site-stats">
+    STATS_TABLE
+    <small>this table was generated using <a href="https://github.com/Andriamanitra/code-game-lang-stats">code-game-lang-stats</a> on CURRENT_DATE</small>
+  </div>
+</body>
+</html>
