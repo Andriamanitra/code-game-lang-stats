@@ -75,6 +75,7 @@ class SiteStats
     "racket"       => "Racket",
     "raku"         => "Raku",
     "reason"       => "Reason",
+    "riscv"        => "RISC-V",
     "ruby"         => "Ruby",
     "rust"         => "Rust",
     "rust2021"     => "Rust",
