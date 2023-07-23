@@ -50,7 +50,7 @@ function renderStatsTable(stats) {
     for (const [langName, numSolved] of langs) {
         const className = langClasses[langName] ?? langName.replaceAll(/\s/g, "-")
         const percentage = Math.round(100 * numSolved / height)
-        markup += `<td><div class="bar ${className}" style="height: ${percentage}px;"></div></td>`
+        markup += `<td><div class="bar ${className}" style="height: ${percentage}%;"></div></td>`
     }
     markup += '</tr>\n'
 
