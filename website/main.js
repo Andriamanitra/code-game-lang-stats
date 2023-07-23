@@ -63,7 +63,7 @@ function renderStatsTable(el, stats) {
         bar.classList.add("bar")
         bar.classList.add(langClasses[langName] ?? langName.replaceAll(/\s/g, "-"))
         const percentage = Math.round(100 * numSolved / height)
-        bar.style.height = `${percentage}px`
+        bar.style.height = `${percentage}%`
         cell.appendChild(bar)
     }
     makeRow().classList.add("lang-header-row")

@@ -15,7 +15,7 @@ a {
 
 .bars-row {
     position: relative;
-    height: 100px;
+    height: 10em;
     outline: 1px solid black;
 }
 
