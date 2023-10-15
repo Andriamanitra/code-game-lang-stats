@@ -27,5 +27,4 @@ $ just run
 After you run the above command the app will be available on http://localhost:8080. You will be presented with a simple
 form in which you can enter links to profiles on the different supported sites, and a table will be generated.
 It should look something like this:
-![screenshot of the application](https://github.com/Andriamanitra/code-game-lang-stats/assets/10672443/4879e4e9-ab72-491b-8ea1-168c05e7d4a1)
-*if you're lucky this screenshot is out of date by the time you see this and it doesn't look as bad any more*
+![screenshot of the application](https://github.com/Andriamanitra/code-game-lang-stats/assets/10672443/4eb436e6-3eef-471e-afc2-a34146f4af81)
