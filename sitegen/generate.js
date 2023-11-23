@@ -46,20 +46,20 @@ function renderStatsTable(stats) {
     markup = '<table id="results-table">\n  <tbody>\n'
 
     // bar graph
-    markup += '    <tr class="bars-row"><td></td>'
+    markup += '    <tr class="bars-row">\n      <td></td>'
     for (const [langName, numSolved] of langs) {
         const className = langClasses[langName] ?? langName.replaceAll(/\s/g, "-")
         const percentage = Math.round(100 * numSolved / height)
-        markup += `<td><div class="bar ${className}" style="height: ${percentage}%;"></div></td>`
+        markup += `\n      <td><div class="bar ${className}" style="height: ${percentage}%;"></div></td>`
     }
-    markup += '</tr>\n'
+    markup += '\n    </tr>\n'
 
     // header (all the language names)
-    markup += '    <tr class="lang-header-row"><td></td>'
+    markup += '    <tr class="lang-header-row">\n      <td></td>'
     for (const [langName, numSolved] of langs) {
-        markup += `<td>${langName}</td>`
+        markup += `\n      <td>${langName}</td>`
     }
-    markup += '</tr>\n'
+    markup += '\n    </tr>\n'
 
     // one row per site
     for (const siteStats of stats) {
