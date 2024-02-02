@@ -19,7 +19,7 @@ class ExercismStats < SiteStats
       obj = JSON.parse(response.body)
       obj["results"].as_a.each do |solution|
         if solution["published_iteration_head_tests_status"] == "passed"
-          lang = solution["language"].as_s
+          lang = solution["track"]["title"].as_s
           stats[lang] += 1
         end
       end
