@@ -53,6 +53,7 @@ class SiteStats
     "kotlin1.4"    => "Kotlin",
     "lisp"         => "Lisp",
     "lua"          => "Lua",
+    "mipsassembly" => "MIPS",
     "mysql"        => "SQL",
     "nim"          => "Nim",
     "objectivec"   => "Obj-C",
@@ -91,6 +92,7 @@ class SiteStats
     "v"            => "V",
     "vb"           => "VB",
     "viml"         => "VimL",
+    "webassembly"  => "WASM",
     "wren"         => "Wren",
     "zig"          => "Zig",
   }
