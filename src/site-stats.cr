@@ -92,7 +92,7 @@ class SiteStats
     "v"            => "V",
     "vb"           => "VB",
     "viml"         => "VimL",
-    "webassembly"  => "WASM",
+    "webassembly"  => "Wasm",
     "wren"         => "Wren",
     "zig"          => "Zig",
   }
