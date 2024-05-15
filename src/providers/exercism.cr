@@ -5,7 +5,7 @@ class ExercismStats < SiteStats
 
   private def self.fetch_solutions_page(username : String, pagenum : Int32) : HTTP::Client::Response
     url = URI.parse(@@exercism_api_url % username)
-    url.query = "page=#{pagenum}"
+    url.query = "page=#{pagenum}&order=oldest_first"
     HTTP::Client.get(url)
   end
 
