@@ -1,8 +1,9 @@
 const stats = []
 const statsEl = document.getElementById("results-table")
 const inputEl = document.getElementById("text-input")
-const resetButtonEl = document.getElementById("reset-button")
 const submitButtonEl = document.getElementById("submit-button")
+
+let languageCount = 5;
 
 // some language names don't exactly match their css classes
 // because of special characters
@@ -50,7 +51,10 @@ function renderStatsTable(el, stats) {
             }
         }
     }
-    const langs = [...langMap.entries()].sort((a, b) => b[1] - a[1])
+
+    const langs = [...langMap.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, languageCount); // Limit the number of languages
 
     const maxH = Math.max(...langMap.values())
     const height = roundUpToPowerOfTwo(maxH)
@@ -103,7 +107,6 @@ function getProfile(profileUrl) {
         .catch(console.error)
 }
 
-resetButtonEl.addEventListener("click", ev => resetStats())
 submitButtonEl.addEventListener("click", ev => {
     getProfile(inputEl.value)
     inputEl.value = ""
@@ -114,3 +117,93 @@ inputEl.addEventListener("keydown", (ev) => {
         inputEl.value = ""
     }
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+    // https://codepen.io/libneko/pen/NWGbEqE
+    const range = document.querySelector(".language-count input[type=range]");
+    const barHoverBox = document.querySelector(".language-count .language-count-bar-hoverbox");
+    const fill = document.querySelector(".language-count .language-count-bar .language-count-bar-fill");
+    
+    range.addEventListener("change", (e) => {
+      console.log("value", e.target.value);
+      // min 5 max 30
+      languageCount = 5 + Math.floor(25 * e.target.value / 100)
+      renderStatsTable(statsEl, stats)
+    });
+    
+    const setValue = (value) => {
+      fill.style.width = value + "%";
+      range.setAttribute("value", value)
+      range.dispatchEvent(new Event("change"))
+    }
+    
+    // Default
+    setValue(range.value);
+    
+    const calculateFill = (e) => {
+      let offsetX = e.offsetX
+      
+      if (e.type === "touchmove") {
+        offsetX = e.touches[0].pageX - e.touches[0].target.offsetLeft
+      }
+      
+      const width = e.target.offsetWidth - 30;
+  
+      setValue(
+        Math.max(
+          Math.min(
+            (offsetX - 15) / width * 100.0,
+            100.0
+          ),
+          0
+        )
+      );
+    }
+    
+    let barStillDown = false;
+  
+    barHoverBox.addEventListener("touchstart", (e) => {
+      barStillDown = true;
+  
+      calculateFill(e);
+    }, true);
+    
+    barHoverBox.addEventListener("touchmove", (e) => {
+      if (barStillDown) {
+        calculateFill(e);
+      }
+    }, true);
+    
+    barHoverBox.addEventListener("mousedown", (e) => {
+      barStillDown = true;
+      
+      calculateFill(e);
+    }, true);
+    
+    barHoverBox.addEventListener("mousemove", (e) => {
+      if (barStillDown) {
+        calculateFill(e);
+      }
+    });
+    
+    barHoverBox.addEventListener("wheel", (e) => {
+      const newValue = +range.value + e.deltaY * 0.5;
+      
+      setValue(Math.max(
+        Math.min(
+          newValue,
+          100.0
+        ),
+        0
+      ))
+    });
+    
+    document.addEventListener("mouseup", (e) => {
+      barStillDown = false;
+    }, true);
+    
+    document.addEventListener("touchend", (e) => {
+      barStillDown = false;
+    }, true);
+  })
+  

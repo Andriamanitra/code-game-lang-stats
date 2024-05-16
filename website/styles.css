@@ -1,4 +1,5 @@
 * {
+    background-color: #f0dbc2;
     box-sizing: border-box;
 }
 
@@ -6,6 +7,32 @@ a {
     white-space: nowrap;
 }
 
+.container {
+    background-color: #f0d2ae;
+    text-align: center;
+}
+
+.box {
+    display: table;
+    border-radius: 5px;
+    background-color: #d8aa8b;
+    box-shadow: 0 0 10px rgba(7, 6, 6, 0.145);
+    padding: 5px;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.section {
+    text-align: left;
+    display: block;
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Table with the language stats results */
 #results-table {
     font-size: 0.7rem;
     border-spacing: 0;
@@ -56,11 +83,41 @@ td:nth-of-type(1) {
     background: blue;
 }
 
-.section {
-    display: block;
-    padding: 1rem;
-}
+/* Scroll bar for languageCount */
+.language-count {
+    input[type=range] {
+        display: none;
+    }
 
-.hidden {
-    display: none;
+    display: table;
+    justify-content: center;
+    align-items: center;
+
+    .language-count-bar-hoverbox {
+        padding: 10px 15px;
+        opacity: 0.7;
+        transition: opacity .2s;
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+    .language-count-bar {
+        background: #5b1f02;
+        height: 7px;
+        width: 120px;
+        border-radius: 15px;
+        overflow: hidden;
+        pointer-events: none;
+
+        .language-count-bar-fill {
+            background: #FFF;
+            width: 0%;
+            height: 100%;
+            background-clip: border-box;
+            pointer-events: none;
+        }
+    }
 }
