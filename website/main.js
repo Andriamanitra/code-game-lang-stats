@@ -26,7 +26,7 @@ function resetStats() {
 }
 
 function renderStatsTable(el, stats) {
-    if (!stats) return
+    if (stats.length === 0) return;
     el.innerHTML = ""
 
     const makeRow = () => {
