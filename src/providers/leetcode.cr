@@ -1,5 +1,5 @@
 class LeetcodeStats < SiteStats
-  @@url_regex = Regex.new("https?://(www[.])?leetcode[.]com/u/(?<username>\\w+)")
+  @@url_regex = Regex.new("https?://(www[.])?leetcode[.]com/(u/)?(?<username>\\w+)")
   @@leetcode_api_url = "https://leetcode.com/graphql/"
   @@headers = HTTP::Headers{"Content-Type" => "application/json"}
 
