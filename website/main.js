@@ -1,7 +1,6 @@
 const stats = []
 const statsEl = document.getElementById("results-table")
 const inputEl = document.getElementById("text-input")
-const resetButtonEl = document.getElementById("reset-button")
 const submitButtonEl = document.getElementById("submit-button")
 
 // some language names don't exactly match their css classes
@@ -103,7 +102,6 @@ function getProfile(profileUrl) {
         .catch(console.error)
 }
 
-resetButtonEl.addEventListener("click", ev => resetStats())
 submitButtonEl.addEventListener("click", ev => {
     getProfile(inputEl.value)
     inputEl.value = ""

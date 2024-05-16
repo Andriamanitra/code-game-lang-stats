@@ -1,9 +1,23 @@
 * {
+    background-color: rgb(229, 203, 175);
     box-sizing: border-box;
+}
+
+body * {
+    background-color: rgb(229, 216, 216);
 }
 
 a {
     white-space: nowrap;
+}
+
+.box {
+    display: table;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #3a1e1e25;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: left;
 }
 
 #results-table {
@@ -11,6 +25,7 @@ a {
     border-spacing: 0;
     outline: 1px solid black;
     border-collapse: collapse;
+    margin: 10px auto;
 }
 
 .bars-row {
@@ -57,7 +72,6 @@ td:nth-of-type(1) {
 }
 
 .section {
-    display: block;
     padding: 1rem;
 }
 
