@@ -41,12 +41,12 @@ section {
 .bars-row {
     position: relative;
     height: 10em;
-    outline: 1px solid black;
 }
 
 .bars-row td {
     position: relative;
     min-width: 3.5ch;
+    border-bottom: 1px solid black;
 }
 
 .lang-header-row td {
