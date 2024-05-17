@@ -1,7 +1,9 @@
 const stats = []
 const statsEl = document.getElementById("results-table")
-const inputEl = document.getElementById("text-input")
-const submitButtonEl = document.getElementById("submit-button")
+const profileInputEl = document.getElementById("profile-text-input")
+const submitProfileButtonEl = document.getElementById("profile-submit-button")
+const usernamesInputEl = document.getElementById("usernames-text-input")
+const submitUsernamesButtonEl = document.getElementById("usernames-submit-button")
 
 // some language names don't exactly match their css classes
 // because of special characters
@@ -87,7 +89,7 @@ function renderStatsTable(el, stats) {
     el.classList.remove("hidden")
 }
 
-function getProfile(profileUrl) {
+function getStatsFromProfile(profileUrl) {
     fetch(`http://localhost:8080/api?profile_url=${profileUrl}`)
         .then(resp => resp.json())
         .then(resp => {
@@ -97,13 +99,42 @@ function getProfile(profileUrl) {
         .catch(console.error)
 }
 
-submitButtonEl.addEventListener("click", ev => {
-    getProfile(inputEl.value)
-    inputEl.value = ""
+function getStatsFromUsernames(usernames) {
+    const urls = [
+        // Skipping CodinGame because of the handle indirection.
+        // We could consider using: https://www.codingame.com/services/search/search
+        // but I understand that it requires cookies/login to access the method.
+        'https://www.codewars.com/users/',
+        'https://leetcode.com/u/',
+        'https://exercism.org/profiles/',
+        'https://code.golf/golfers/',
+        'https://atcoder.jp/users/',
+        'https://codeforces.com/profile/',
+    ]
+
+    usernames.split(',').forEach(username => {
+        urls.forEach(url => getStatsFromProfile(`${url}${username}`))
+    })
+}
+
+submitProfileButtonEl.addEventListener("click", ev => {
+    getStatsFromProfile(profileInputEl.value)
+    profileInputEl.value = ""
 })
-inputEl.addEventListener("keydown", (ev) => {
+submitUsernamesButtonEl.addEventListener("click", ev => {
+    getStatsFromUsernames(usernamesInputEl.value)
+    usernamesInputEl.value = ""
+})
+
+profileInputEl.addEventListener("keydown", (ev) => {
     if (ev.key == "Enter") {
-        getProfile(inputEl.value)
-        inputEl.value = ""
+        getStatsFromProfile(profileInputEl.value)
+        profileInputEl.value = ""
+    }
+})
+usernamesInputEl.addEventListener("keydown", (ev) => {
+    if (ev.key == "Enter") {
+        getStatsFromUsernames(usernamesInputEl.value)
+        usernamesInputEl.value = ""
     }
 })

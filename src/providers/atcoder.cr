@@ -11,7 +11,7 @@ class AtCoderStats < SiteStats
     return nil unless response.success?
 
     obj = JSON.parse(response.body)
-    return nil if obj.nil?
+    return nil if obj.nil? || obj.size.zero?
 
     obj.as_a.each do |item|
       language = item["language"].as_s
