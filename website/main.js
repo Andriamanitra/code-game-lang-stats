@@ -21,11 +21,6 @@ function roundUpToPowerOfTwo(num) {
     return 1 << 32 - Math.clz32(num)
 }
 
-function resetStats() {
-    stats.length = 0
-    statsEl.classList.add("hidden")
-}
-
 function renderStatsTable(el, stats) {
     if (stats.length === 0) return;
     el.innerHTML = ""
