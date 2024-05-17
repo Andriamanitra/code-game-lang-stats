@@ -1,7 +1,6 @@
 const stats = []
 const statsEl = document.getElementById("results-table")
 const inputEl = document.getElementById("text-input")
-const resetButtonEl = document.getElementById("reset-button")
 const submitButtonEl = document.getElementById("submit-button")
 
 // some language names don't exactly match their css classes
@@ -18,11 +17,6 @@ const langClasses = {
 
 function roundUpToPowerOfTwo(num) {
     return 1 << 32 - Math.clz32(num)
-}
-
-function resetStats() {
-    stats.length = 0
-    statsEl.classList.add("hidden")
 }
 
 function renderStatsTable(el, stats) {
@@ -103,7 +97,6 @@ function getProfile(profileUrl) {
         .catch(console.error)
 }
 
-resetButtonEl.addEventListener("click", ev => resetStats())
 submitButtonEl.addEventListener("click", ev => {
     getProfile(inputEl.value)
     inputEl.value = ""
